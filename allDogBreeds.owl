@@ -1,0 +1,781 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="allDogBreeds.owl"
+         xmlns="allDogBreeds.owl#">
+
+<owl:Ontology rdf:about="allDogBreeds.owl"/>
+
+<owl:ObjectProperty rdf:about="#is_breed_of">
+  <rdfs:domain rdf:resource="#Dog"/>
+  <rdfs:range rdf:resource="#Breeds"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#Dog">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Breeds">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<Dog rdf:about="#Retrievers (Labrador)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#German Shepherd Dogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Retrievers (Golden)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bulldogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Beagles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#French Bulldogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Poodles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Rottweilers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Yorkshire Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Boxers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Pointers (German Shorthaired)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Siberian Huskies">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Dachshunds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Great Danes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Doberman Pinschers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Australian Shepherds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Miniature Schnauzers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Pembroke Welsh Corgis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Cavalier King Charles Spaniels">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Shih Tzu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Boston Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Pomeranians">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Havanese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Shetland Sheepdogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Brittanys">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spaniels (English Springer)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bernese Mountain Dogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Mastiffs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spaniels (Cocker)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Chihuahuas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Vizslas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Pugs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Maltese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Weimaraners">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Newfoundlands">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Miniature American Shepherds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Collies">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Border Collies">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Basset Hounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Cane Corso">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#West Highland White Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Rhodesian Ridgebacks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Retrievers (Chesapeake Bay)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Shiba Inu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bichons Frises">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Akitas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Belgian Malinois">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bullmastiffs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#St. Bernards">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Soft Coated Wheaten Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Portuguese Water Dogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bloodhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Papillons">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Australian Cattle Dogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Airedale Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spaniels (English Cocker)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bull Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Scottish Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Alaskan Malamutes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Whippets">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Chinese Shar-Pei">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Dalmatians">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Dogues de Bordeaux">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Pointers (German Wirehaired)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Samoyeds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Wirehaired Pointing Griffons">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Great Pyrenees">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Miniature Pinschers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Cardigan Welsh Corgis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Cairn Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Lhasa Apsos">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Italian Greyhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Irish Wolfhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Chow Chows">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Old English Sheepdogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Setters (Irish)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Chinese Crested">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Greater Swiss Mountain Dogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Giant Schnauzers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Coton de Tulear">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#American Staffordshire Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Staffordshire Bull Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bouviers des Flandres">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Anatolian Shepherd Dogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Standard Schnauzers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Border Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Retrievers (Nova Scotia Duck Tolling)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Basenjis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Retrievers (Flat-Coated)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Russell Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Tibetan Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Keeshonden">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Pekingese">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Norwegian Elkhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Leonbergers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Rat Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Brussels Griffons">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Borzois">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Neapolitan Mastiffs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Silky Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Fox Terriers (Wire)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Setters (English)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Norwich Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Setters (Gordon)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spinoni Italiani">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#American Hairless Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Belgian Tervuren">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Japanese Chin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Parson Russell Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spaniels (Boykin)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Welsh Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Schipperkes">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Afghan Hounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Lagotti Romagnoli">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Irish Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Toy Fox Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Pointers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Tibetan Spaniels">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Black Russian Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Miniature Bull Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bluetick Coonhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#American Eskimo Dogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spaniels (Welsh Springer)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Fox Terriers (Smooth)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Salukis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bearded Collies">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Kerry Blue Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Black and Tan Coonhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Belgian Sheepdogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#English Toy Spaniels">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Boerboels">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Briards">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Manchester Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Norfolk Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Tibetan Mastiffs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Australian Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Treeing Walker Coonhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bedlington Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Xoloitzcuintli">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Beaucerons">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Berger Picards">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Setters (Irish Red and White)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Redbone Coonhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spaniels (Clumber)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Lakeland Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#German Pinschers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spaniels (Field)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Petits Bassets Griffons Vendeens">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Affenpinschers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spaniels (Irish Water)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Greyhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Ibizan Hounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Icelandic Sheepdogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Scottish Deerhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Sealyham Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spaniels (American Water)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Wirehaired Vizslas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Plotts">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Pulik">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Portuguese Podengo Pequenos">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Entlebucher Mountain Dogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spanish Water Dogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Swedish Vallhunds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Retrievers (Curly-Coated)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Kuvaszok">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Otterhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Dandie Dinmont Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Pharaoh Hounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Polish Lowland Sheepdogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#American English Coonhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Lowchen">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Spaniels (Sussex)">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Finnish Lapphunds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Norwegian Buhunds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Chinooks">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Pyrenean Shepherds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Komondorok">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Skye Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Finnish Spitz">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Glen of Imaal Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Canaan Dogs">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Cesky Terriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Cirnechi dell'Etna">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Bergamasco">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Sloughis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Harriers">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#English Foxhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#Norwegian Lundehunds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+<Dog rdf:about="#American Foxhounds">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Dog>
+
+
+</rdf:RDF>

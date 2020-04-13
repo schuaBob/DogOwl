@@ -1,6 +1,6 @@
 import pandas as pd
 from owlready2 import *
-dogBread = pd.read_csv('./AKC_Popular_Breeds_2013-2016.csv',encoding='utf-8')['Breed']
+# dogBread = pd.read_csv('./AKC_Popular_Breeds_2013-2016.csv',encoding='utf-8')['Breed']
 onto = get_ontology('dogBreeds.owl')
 
 with onto:
