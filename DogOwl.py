@@ -25,6 +25,8 @@ mix = Breeds("白金獵犬")
 my_dog.is_breed_of.append(mix)
 print(my_dog.is_breed_of)
 
+onto.save(file = "dogBreeds.owl", format = "rdfxml")
+
 
 
 

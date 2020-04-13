@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="dogBreeds.owl"
+         xmlns="dogBreeds.owl#">
+
+<owl:Ontology rdf:about="dogBreeds.owl"/>
+
+<owl:ObjectProperty rdf:about="#is_breed_of">
+  <rdfs:domain rdf:resource="#Dog"/>
+  <rdfs:range rdf:resource="#Breeds"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="#Dog">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Breeds">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<Dog rdf:about="#Bobo">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <is_breed_of rdf:resource="#黃金獵犬"/>
+  <is_breed_of rdf:resource="#白金獵犬"/>
+</Dog>
+
+<Breeds rdf:about="#黃金獵犬">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Breeds>
+
+<Breeds rdf:about="#白金獵犬">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Breeds>
+
+
+</rdf:RDF>
